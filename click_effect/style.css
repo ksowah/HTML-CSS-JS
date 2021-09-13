@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(24, 22, 22);
+    color: honeydew;
+    font-style: inherit;
+    overflow: hidden;
+}
+
+h1, #txt0, #txt1, #txt2 :hover{
+    font-size: 70px;
+    position: relative;
+    left: 150px;
+    top: 80px;
+    cursor: pointer;
+}
