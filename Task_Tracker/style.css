@@ -1,0 +1,91 @@
+body{
+    text-align: center;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+    font-family: cursive;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+h1{
+    margin-top: 70px;
+    margin: 50px;
+}
+
+.span{
+    cursor: default;
+    transform: translate(-50%, -50%);
+    font-size:30px;
+      letter-spacing:0.1em;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: white;
+  }
+
+.container{
+    margin-top: 50px;
+}
+
+ul{
+    list-style: none;
+    background-color: #ccc;
+    height: 30px;
+    padding: 50px;
+    font-size: 20px;
+    transition: 0.5s linear;
+}
+#ul-list{
+    margin: 0 auto;
+  max-width: 700px;
+  text-align: left;
+}
+
+#task-box{
+    margin-right: 0px;
+    border: 0;
+    padding: 7px; 
+    width: 50%;
+    outline: #ccc;
+   background-color: #ccc;
+   font-family: cursive;
+   font-size: 20px;
+}
+
+.counter{
+    background-color: #ccc;
+    padding: 5px; 
+    width: 25px;
+    outline: #ccc;
+    border-radius: 3px;
+    font-size: 20px;
+}
+
+
+button{
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: yellowgreen;
+}
+
+#del-btn{
+    background-color: tomato;
+}
+
+
+
